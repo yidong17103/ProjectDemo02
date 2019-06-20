@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecommendFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:textColor="@android:color/background_light"
+                android:text="推 荐"
+                android:textSize="28dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <ViewFlipper
+               android:id="@+id/vf_video"
+               android:layout_width="412dp"
+               android:layout_height="220dp"
+               ></ViewFlipper>
+           <View
+               android:background="@android:color/holo_blue_bright"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               ></View>
+
+           <ListView
+               android:layout_margin="8dp"
+               android:id="@+id/lv_rc_list"
+               android:divider="@android:color/darker_gray"
+               android:padding="1dp"
+               android:layout_width="match_parent"
+               android:dividerHeight="3dp"
+               android:layout_height="wrap_content"></ListView>
+
+
+       </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
