@@ -17,6 +17,9 @@ public class friendsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_friends);
 
+
+
+
         tv_home_friends=(TextView)findViewById(R.id.tv_home_friends);
         fragment=new InforFragment();
         fragmentManager=getSupportFragmentManager();
