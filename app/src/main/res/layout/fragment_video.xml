@@ -10,16 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
-            android:background="@android:color/holo_blue_bright"
+            android:background="#cb132b"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <TextView
-                android:gravity="center"
-                android:textColor="@android:color/background_light"
-                android:text="视 频"
-                android:textSize="28dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="视 频"
+                android:textColor="@android:color/background_light"
+                android:textSize="28dp" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
